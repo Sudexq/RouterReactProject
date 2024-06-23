@@ -1,0 +1,16 @@
+.navbar{
+    background-color: deeppink;
+    padding: 10px 15px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+    font-weight: 800;
+}
+
+.link:hover{
+    color: rgb(187, 225, 226);
+}

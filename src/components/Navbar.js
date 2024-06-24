@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom"; //NavLink ile active class ını linklerimize eklemiş oluyoruz.
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link className="link" to="/">Home</Link>
-      <Link className="link" to="/aboutUs">About</Link>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/aboutUs">About</NavLink>
+      <NavLink to="/history">History</NavLink>
     </nav>
   );
 }

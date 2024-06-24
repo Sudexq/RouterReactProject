@@ -1,16 +1,29 @@
-.navbar{
-    background-color: deeppink;
-    padding: 10px 15px;
+.navbar {
+  background-color: deeppink;
+  padding: 10px 15px;
 }
 
-.link{
-    color: white;
-    text-decoration: none;
-    font-size: large;
-    padding: 5px;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  padding: 10px;
+}
+
+.navbar a.active {
     font-weight: 800;
 }
 
-.link:hover{
-    color: rgb(187, 225, 226);
+.navbar a:hover{
+    color: deeppink;
+    box-shadow: 0 0 10px 0px black;
+    background-color: aliceblue;
 }
+
+/*wrong path*/
+.wrongPath{
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+}
+/*wrong path*/

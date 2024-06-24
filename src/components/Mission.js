@@ -1,14 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function Home() {
+function Mission() {
   const navigate = useNavigate();
   return (
     <>
-      <div>Home</div>
-      <button onClick={() => navigate("/mission")}>Mission a git</button>
+      <div>Mission</div>
+      <button onClick={() => navigate("/")}>Anasayfaya geri dön</button>
     </>
   );
 }
 
-export default Home;
+export default Mission;

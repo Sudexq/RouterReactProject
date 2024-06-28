@@ -8,6 +8,8 @@ import WrongPath from "./components/WrongPath";
 import History from "./components/History";
 import Company from "./components/Company";
 import Team from "./components/Team";
+import Members from "./components/Members";
+import MemberDetail from "./components/MemberDetail";
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
           {/* routeun içine route yazınca path başına slash(/) koymuyoruz */}
           <Route path="team" element={<Team />} />
         </Route>
+        <Route path="/members" element={<Members />} />
+        <Route path="/members/:memberId" element={<MemberDetail />} />
         <Route path="*" element={<WrongPath />} />
         {/* yıldız işareti olmayan yol u temsil eder */}
       </Routes>
